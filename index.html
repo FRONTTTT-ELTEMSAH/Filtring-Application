@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filterable Application</title>
+    <!-- Link Css Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Link CSS File -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navabr Start -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          >Filter <span style="color: teal; font-weight: normal">App</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+          </ul>
+
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Navabr End -->
+    <!-- Project Start  -->
+    <div class="project my-5 p-2">
+      <div class="container">
+        <ul>
+          <li data-cat=".all" class="active">All</li>
+          <li data-cat=".cap">Caps</li>
+          <li data-cat=".jacket">Jackets</li>
+          <li data-cat=".watch">Watches</li>
+          <li data-cat=".bag">Bag</li>
+          <li data-cat=".shoes">Shoeses</li>
+        </ul>
+        <div class="products">
+          <div class="row">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Project End  -->
+    <!-- Script Js Bootstrap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Script JS File -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
