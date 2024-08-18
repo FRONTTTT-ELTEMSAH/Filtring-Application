@@ -40,7 +40,7 @@ const showProducts = () => {
                       arrayClasses[i]
                     }">
               <div class="card" >
-                <img src="../img/${i + 1}.jpg" class="card-img-top" alt="..." />
+                <img src="./img/${i + 1}.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
                   <h5 class="card-title">${arrayTitle[i]}</h5>
                   <p class="card-text">
